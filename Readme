@@ -1,0 +1,70 @@
+# Projects0 search
+
+## Descripción
+
+Este proyecto consiste en un sitio web que simula las páginas de búsqueda de Google, incluyendo la búsqueda regular, la búsqueda de imágenes y la búsqueda avanzada. El sitio está diseñado para parecerse a la estética de Google y ofrece funcionalidad básica de búsqueda.
+
+## Páginas
+
+### 1. Búsqueda de Google (`index.html`)
+
+- **Descripción**: Página principal donde los usuarios pueden realizar búsquedas en Google.
+- **Características**:
+  - Barra de búsqueda centrada con esquinas redondeadas.
+  - Botón de búsqueda centrado debajo de la barra de búsqueda.
+  - Enlace en la parte superior derecha para ir a la Búsqueda de Imágenes o a la Búsqueda Avanzada.
+  - Botón "Me siento afortunado" que redirige directamente al primer resultado de búsqueda de Google para la consulta ingresada.
+
+### 2. Búsqueda de Imágenes de Google (`searchImg.html`)
+
+- **Descripción**: Página para realizar búsquedas de imágenes en Google.
+- **Características**:
+  - Barra de búsqueda centrada con esquinas redondeadas.
+  - Botón de búsqueda centrado debajo de la barra de búsqueda.
+  - Enlace en la parte superior derecha para volver a la Búsqueda de Google.
+
+### 3. Búsqueda Avanzada de Google (`advance.html`)
+
+- **Descripción**: Página para realizar búsquedas avanzadas en Google con campos específicos.
+- **Características**:
+  - Cuatro campos de búsqueda apilados verticalmente:
+    - "Todas estas palabras:"
+    - "Esta palabra o frase exacta:"
+    - "Cualquiera de estas palabras:"
+    - "Ninguna de estas palabras:"
+  - Todos los campos de texto están alineados a la izquierda.
+  - Botón "Búsqueda avanzada" azul con texto blanco que redirige a la página de resultados de búsqueda para la consulta dada.
+  - Enlace en la parte superior derecha para volver a la Búsqueda de Google.
+
+## Instalación
+
+1. **Clonar el Repositorio**
+
+    ```bash
+    git clone https:https://github.com/juanjose23/Search.git
+    cd Search
+    ```
+
+2. **Abrir los Archivos**
+
+    Abre los archivos `index.html`, `searchImag.html` y `advance.html` en tu navegador para ver y probar las páginas.
+
+## Uso
+
+1. **Búsqueda de Google**: Ingresa una consulta en la barra de búsqueda y haz clic en el botón "Búsqueda de Google" para acceder a los resultados de búsqueda de Google. Usa el botón "Me siento afortunado" para ser redirigido directamente al primer resultado de búsqueda.
+
+2. **Búsqueda de Imágenes**: Ingresa una consulta en la barra de búsqueda y haz clic en el botón de búsqueda para acceder a los resultados de búsqueda de imágenes de Google.
+
+3. **Búsqueda Avanzada**: Completa los campos de búsqueda avanzada y haz clic en el botón "Búsqueda avanzada" para acceder a los resultados de búsqueda en Google con las condiciones especificadas.
+
+## CSS
+
+El CSS está diseñado para imitar la estética de Google. Asegúrate de que los estilos se asemejen a los de la página de búsqueda de Google, incluyendo la barra de búsqueda centrada, los botones y los enlaces.
+
+## Contribuciones
+
+Si encuentras algún error o deseas realizar mejoras, siéntete libre de bifurcar el repositorio y enviar solicitudes de extracción.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
